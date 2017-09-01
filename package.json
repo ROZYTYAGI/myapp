@@ -1,0 +1,24 @@
+{
+  "name": "myserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "Rozy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "express": "^4.15.4",
+    "jade": "^1.11.0",
+    "mongoose": "^4.11.9"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "nyc": "^11.1.0",
+    "sinon": "^3.2.1",
+    "supertest": "^3.0.0"
+  }
+}
